@@ -8,6 +8,11 @@
   )
 
 
+  (text "Hi Joab\n" (at 143.002 76.454 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 294be05a-c95a-4e12-8d57-20857b65d91c)
+  )
+
   (label "LOL" (at 139.7 95.25 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 9337637d-e155-4c0b-8f78-135e140f164a)
