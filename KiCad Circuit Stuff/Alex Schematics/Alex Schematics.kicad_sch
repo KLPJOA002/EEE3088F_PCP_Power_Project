@@ -1,0 +1,19 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 283256c9-17c0-4062-8970-b31f914079db)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (label "ALEX YOUR SHIT HERE" (at 124.46 87.63 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 7a5d3cdb-e0d3-4aba-bb97-3aa17996ef6a)
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
