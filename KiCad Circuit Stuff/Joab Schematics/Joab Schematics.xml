@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\joabk\OneDrive - University of Cape Town\2025\Sem1\EEE3088F Material\MM Project\KiCad Circuit Stuff\Joab Schematics\Joab Schematics.kicad_sch</source>
+    <date>2025/03/21 17:14:41</date>
+    <tool>Eeschema 7.0.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Joab PCP Work</title>
+        <company>UCT</company>
+        <rev>V0.0</rev>
+        <date>2025-03-19</date>
+        <source>Joab Schematics.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value="KLPJOA002"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>22u</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e922a976-d76e-4ce1-9ad4-9b19711e4f6b</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>22u</value>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51ddc6d1-e160-4d7c-be44-71c9b514217f</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>SS34</value>
+      <fields>
+        <field name="LCSC">C8678</field>
+      </fields>
+      <libsource lib="Device" part="D_Schottky_Small" description="Schottky diode, small symbol"/>
+      <property name="LCSC" value="C8678"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode, small symbol"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4df8e3bd-65b8-4e9a-ae8c-bf116f0bf186</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x16_Odd_Even</value>
+      <libsource lib="Connector_Generic" part="Conn_02x16_Odd_Even" description="Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1cdc1a8-8282-4c59-a9b3-3cde4313c5fe</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>10u</value>
+      <fields>
+        <field name="LCSC">C9182</field>
+      </fields>
+      <libsource lib="Device" part="L_Small" description="Inductor, small symbol"/>
+      <property name="LCSC" value="C9182"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Inductor, small symbol"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b3bb823-79d1-438c-af52-d3c7ca2f425d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>680k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5af85855-79ef-4308-b266-15444ea56b21</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>56k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>570b7bbb-1362-4391-a0c7-8b408b6d823d</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100k</value>
+      <libsource lib="Device" part="R_Small_US" description="Resistor, small US symbol"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="Resistor, small US symbol"/>
+      <property name="ki_keywords" value="r resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2c14626-edd2-4bc3-ad89-6b5f435996cd</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>MT3608</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</datasheet>
+      <fields>
+        <field name="LCSC">C84817</field>
+      </fields>
+      <libsource lib="Regulator_Switching" part="MT3608" description="High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"/>
+      <property name="LCSC" value="C84817"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Joab Schematics.kicad_sch"/>
+      <property name="ki_description" value="High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6"/>
+      <property name="ki_keywords" value="Step-Up Boost DC-DC Regulator Adjustable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab5d0511-a4f3-47ea-8bd0-70c22bc39b73</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x16_Odd_Even">
+      <description>Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x16_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+        <pin num="25" name="Pin_25" type="passive"/>
+        <pin num="26" name="Pin_26" type="passive"/>
+        <pin num="27" name="Pin_27" type="passive"/>
+        <pin num="28" name="Pin_28" type="passive"/>
+        <pin num="29" name="Pin_29" type="passive"/>
+        <pin num="30" name="Pin_30" type="passive"/>
+        <pin num="31" name="Pin_31" type="passive"/>
+        <pin num="32" name="Pin_32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky_Small">
+      <description>Schottky diode, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="L_Small">
+      <description>Inductor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Small_US">
+      <description>Resistor, small US symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small_US</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="MT3608">
+      <description>High Efficiency 1.2MHz 2A Step Up Converter, 2-24V Vin, 28V Vout, 4A current limit, 1.2MHz, SOT23-6</description>
+      <docs>https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</docs>
+      <footprints>
+        <fp>SOT*23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">MT3608</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.olimex.com/Products/Breadboarding/BB-PWR-3608/resources/MT3608.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SW" type="passive"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="FB" type="input"/>
+        <pin num="4" name="EN" type="input"/>
+        <pin num="5" name="IN" type="power_in"/>
+        <pin num="6" name="NC" type="no_connect"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/5V">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/Battery">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="L1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="EN" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="4" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SW" pintype="passive"/>
+    </net>
+    <net code="5" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(U1-FB)">
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="7" name="unconnected-(J1-Pin_1-Pad1)">
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="8" name="unconnected-(J1-Pin_2-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="9" name="unconnected-(J1-Pin_3-Pad3)">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="10" name="unconnected-(J1-Pin_4-Pad4)">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="11" name="unconnected-(J1-Pin_5-Pad5)">
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="12" name="unconnected-(J1-Pin_6-Pad6)">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="13" name="unconnected-(J1-Pin_7-Pad7)">
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="14" name="unconnected-(J1-Pin_8-Pad8)">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="15" name="unconnected-(J1-Pin_9-Pad9)">
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+    </net>
+    <net code="16" name="unconnected-(J1-Pin_10-Pad10)">
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+    </net>
+    <net code="17" name="unconnected-(J1-Pin_11-Pad11)">
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(J1-Pin_12-Pad12)">
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+    </net>
+    <net code="19" name="unconnected-(J1-Pin_13-Pad13)">
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+    </net>
+    <net code="20" name="unconnected-(J1-Pin_15-Pad15)">
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+    </net>
+    <net code="21" name="unconnected-(J1-Pin_16-Pad16)">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+    </net>
+    <net code="22" name="unconnected-(J1-Pin_17-Pad17)">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+    </net>
+    <net code="23" name="unconnected-(J1-Pin_18-Pad18)">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+    </net>
+    <net code="24" name="unconnected-(J1-Pin_21-Pad21)">
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+    </net>
+    <net code="25" name="unconnected-(J1-Pin_22-Pad22)">
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+    </net>
+    <net code="26" name="unconnected-(J1-Pin_24-Pad24)">
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+    </net>
+    <net code="27" name="unconnected-(J1-Pin_25-Pad25)">
+      <node ref="J1" pin="25" pinfunction="Pin_25" pintype="passive"/>
+    </net>
+    <net code="28" name="unconnected-(J1-Pin_26-Pad26)">
+      <node ref="J1" pin="26" pinfunction="Pin_26" pintype="passive"/>
+    </net>
+    <net code="29" name="unconnected-(J1-Pin_27-Pad27)">
+      <node ref="J1" pin="27" pinfunction="Pin_27" pintype="passive"/>
+    </net>
+    <net code="30" name="unconnected-(J1-Pin_28-Pad28)">
+      <node ref="J1" pin="28" pinfunction="Pin_28" pintype="passive"/>
+    </net>
+    <net code="31" name="unconnected-(J1-Pin_29-Pad29)">
+      <node ref="J1" pin="29" pinfunction="Pin_29" pintype="passive"/>
+    </net>
+    <net code="32" name="unconnected-(J1-Pin_30-Pad30)">
+      <node ref="J1" pin="30" pinfunction="Pin_30" pintype="passive"/>
+    </net>
+    <net code="33" name="unconnected-(J1-Pin_31-Pad31)">
+      <node ref="J1" pin="31" pinfunction="Pin_31" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(J1-Pin_32-Pad32)">
+      <node ref="J1" pin="32" pinfunction="Pin_32" pintype="passive"/>
+    </net>
+    <net code="35" name="unconnected-(U1-NC-Pad6)">
+      <node ref="U1" pin="6" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
