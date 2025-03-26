@@ -38,6 +38,19 @@
   )
 
   (setup
+    (stackup
+      (layer "F.SilkS" (type "Top Silk Screen"))
+      (layer "F.Paste" (type "Top Solder Paste"))
+      (layer "F.Mask" (type "Top Solder Mask") (thickness 0.01))
+      (layer "F.Cu" (type "copper") (thickness 0.035))
+      (layer "dielectric 1" (type "core") (thickness 1.51) (material "FR4") (epsilon_r 4.5) (loss_tangent 0.02))
+      (layer "B.Cu" (type "copper") (thickness 0.035))
+      (layer "B.Mask" (type "Bottom Solder Mask") (thickness 0.01))
+      (layer "B.Paste" (type "Bottom Solder Paste"))
+      (layer "B.SilkS" (type "Bottom Silk Screen"))
+      (copper_finish "None")
+      (dielectric_constraints no)
+    )
     (pad_to_mask_clearance 0)
     (pcbplotparams
       (layerselection 0x00010fc_ffffffff)
@@ -4706,5 +4719,14 @@
 
   (gr_rect (start 100 100) (end 177.3 152.95)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.Cu") (tstamp 1e395a9e-8399-4a1f-98dd-94245ee9fae8))
+  (gr_text "Hello Alex, Can you see this" (at 143.5 107.25) (layer "F.SilkS") (tstamp c07eb10f-a739-41bf-8cd8-5c841b5c1400)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom mirror))
+  )
+
+  (segment (start 129.46 151) (end 134.54 151) (width 0.25) (layer "B.Cu") (net 4) (tstamp 0bb938bb-e576-4e2a-a614-f599a24e8bd0))
+  (segment (start 111.25 150.25) (end 112 151) (width 0.25) (layer "B.Cu") (net 4) (tstamp 82f8a585-7f46-482f-a95c-280fd6cfb9c8))
+  (segment (start 134.54 151) (end 135.75 149.79) (width 0.25) (layer "B.Cu") (net 4) (tstamp 930eeedc-87d4-44fa-8a64-6805db1f0369))
+  (segment (start 129.46 151) (end 130.67 149.79) (width 0.25) (layer "B.Cu") (net 4) (tstamp a20644d2-3868-405b-b961-bacb396cc9fd))
+  (segment (start 112 151) (end 129.46 151) (width 0.25) (layer "B.Cu") (net 4) (tstamp f4fe53dd-7039-4176-8b7a-da36a97f058e))
 
 )
