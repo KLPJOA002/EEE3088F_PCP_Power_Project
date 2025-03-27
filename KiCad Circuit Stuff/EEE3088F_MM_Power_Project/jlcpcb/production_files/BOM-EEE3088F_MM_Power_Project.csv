@@ -57,3 +57,6 @@ Possible Filter Cap ,JP3,SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm,,1
 TestPoint,CHRG_VinR_TP2,TestPoint_Pad_2.5x2.5mm,,1
 BAT TP,BAT_TP1,TestPoint_Pad_2.5x2.5mm,,1
 GND TP,GND_TP1,TestPoint_Pad_2.5x2.5mm,,1
+MountingHole,H1,MountingHole_3.2mm_M3_DIN965_Pad,,1
+MountingHole,H3,MountingHole_3.2mm_M3_DIN965_Pad,,1
+MountingHole,H2,MountingHole_3.2mm_M3_DIN965_Pad,,1

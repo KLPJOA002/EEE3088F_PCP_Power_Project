@@ -307,7 +307,7 @@
     (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/65e567c0-4228-4b9c-9230-b2d4835608b3")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J1" (at 1 -2.9 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp dc06c161-d19a-444d-988a-bcc56994c36d)
@@ -953,7 +953,7 @@
     (property "ki_description" "Generic connector, double row, 02x16, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/ecfbc7f4-2b9d-4b32-9302-efe8356c9085")
-    (attr through_hole)
+    (attr through_hole exclude_from_bom)
     (fp_text reference "J2" (at 1.27 -2.33 90) (layer "F.SilkS")
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp e1d1f142-3763-4181-8d0c-781900fb0366)
@@ -5139,8 +5139,8 @@
 
   (gr_rect (start 100 94.4882) (end 177.3 152.95)
     (stroke (width 0.2) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 1e395a9e-8399-4a1f-98dd-94245ee9fae8))
-  (gr_text "Joab Kloppers: KLPJOA002\nAlex Hillman: HILALE010\n" (at 145.9484 99.5172) (layer "F.SilkS") (tstamp 038371ec-ec75-4075-968c-efa4c95724db)
-    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  (gr_text "Joab Kloppers: KLPJOA002\nAlex Hillman: HLLALE010\nGroup 15\n" (at 155.956 99.568) (layer "F.SilkS") (tstamp 038371ec-ec75-4075-968c-efa4c95724db)
+    (effects (font (size 1 1) (thickness 0.2) bold) (justify left bottom))
   )
 
   (segment (start 137.499863 116.76147) (end 137.46713 116.76147) (width 0.76) (layer "F.Cu") (net 1) (tstamp 04ecb720-b581-437b-81a2-a06af275d10e))
