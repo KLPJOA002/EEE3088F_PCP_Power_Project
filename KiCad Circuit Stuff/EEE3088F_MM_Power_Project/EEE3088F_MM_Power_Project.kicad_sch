@@ -3344,7 +3344,7 @@
     (effects (font (size 0.5 0.5)) (justify right bottom))
     (uuid 93beec31-e5b2-4da7-ac25-d824e165130e)
   )
-  (label "Battery" (at 38.1 68.58 180) (fields_autoplaced)
+  (label "Battery_Out" (at 38.1 68.58 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 94030fd4-73a6-4416-b072-c2e7f54417ce)
   )
