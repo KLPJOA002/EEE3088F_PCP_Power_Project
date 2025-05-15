@@ -1,9 +1,25 @@
-This is the GitHub repository for the UCT EEE3088F Micro-Mouse power supply PCP design project.
-The contributors to this project are: 
-Joab Gray Kloppers: KLPJOA002
-Alex Hillman: HLLALE010
+# EEE3088F Micromouse Power Subsystem
 
-The project has been separated into three schematics:
-Joab's Schematic
-Alex's Schematic
-Final Combined Schematic
+This repository contains the collaborative hardware design files and documentation for the **Power Subsystem** of the 2025 EEE3088F Micromouse Project at the University of Cape Town.
+
+## 🚀 Project Overview
+
+The EEE3088F Micromouse project challenges students to design submodules for a maze-solving robot. Our task focused on building the **Power Module** that supplies and regulates power to all other subsystems, including:
+
+- **Bidirectional motor control** (4 motors: 2x 200mA, 2x 500mA)
+- **USB-C PD negotiation** to 9V input
+- **Battery charging** with two selectable current modes (200mA and ~600mA)
+- **Battery monitoring** using the INA219 over I2C
+- **External load switching** (2x 1A High Side switches)
+- **3.3V and 5V voltage regulation**
+- **Ultra-low power OFF mode** via a system-wide ON/OFF switch
+
+All PCB designs were implemented under strict **budget** and **size** constraints: 
+- Component budget: **$56.50**
+- PCB size: **max 82mm x 60mm**
+- Compliance with JLCPCB fabrication requirements
+
+---
+
+## 📁 Repository Structure
+
