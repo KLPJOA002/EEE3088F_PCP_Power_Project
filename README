@@ -1,25 +1,82 @@
-# EEE3088F Micromouse Power Subsystem
+# Micromouse Power Subsystem – EEE3088F 2025
 
-This repository contains the collaborative hardware design files and documentation for the **Power Subsystem** of the 2025 EEE3088F Micromouse Project at the University of Cape Town.
+This repository contains the design files, documentation, and supporting material for the **Micromouse Power Subsystem** designed as part of the EEE3088F course at the University of Cape Town. The subsystem was built to meet a strict set of functional and mechanical requirements under tight budget constraints.
 
-## 🚀 Project Overview
+## 🧭 Project Overview
 
-The EEE3088F Micromouse project challenges students to design submodules for a maze-solving robot. Our task focused on building the **Power Module** that supplies and regulates power to all other subsystems, including:
+Micromouse is a global robotics competition in which small autonomous robots solve mazes. The UCT EEE3088F course replicates this challenge by requiring students to develop individual subsystems that together build a complete micromouse. This repository documents the design and implementation of the **Power Subsystem**, which is responsible for:
 
-- **Bidirectional motor control** (4 motors: 2x 200mA, 2x 500mA)
-- **USB-C PD negotiation** to 9V input
-- **Battery charging** with two selectable current modes (200mA and ~600mA)
-- **Battery monitoring** using the INA219 over I2C
-- **External load switching** (2x 1A High Side switches)
-- **3.3V and 5V voltage regulation**
-- **Ultra-low power OFF mode** via a system-wide ON/OFF switch
-
-All PCB designs were implemented under strict **budget** and **size** constraints: 
-- Component budget: **$56.50**
-- PCB size: **max 82mm x 60mm**
-- Compliance with JLCPCB fabrication requirements
+- Bidirectional control of 4 motors (2x 200mA, 2x 500mA)
+- Battery charging (with selectable fast and slow charging modes)
+- USB-C PD negotiation (9V)
+- 5V and 3.3V regulation
+- External load switching (2x 1A high-side loads)
+- Ultra-low power OFF mode (<30µA)
+- INA219 current and voltage monitoring
 
 ---
 
-## 📁 Repository Structure
+## 🗂 Repository Structure
 
+
+---
+
+## 🛠 Hardware Requirements
+
+- **Battery**: 3.7V 800mAh LiPo (Micro Robotics)
+- **USB PD IC**: HUSB237 for 9V negotiation
+- **Motor Driver**: DRV8833 for up to 2A peak per motor
+- **Load Switch**: AP22814 (3A capable, overcurrent protected)
+- **Battery Monitor**: INA219 over I2C
+- **Charging IC**: TP4056-42-ESOP8
+- **Voltage Regulators**:
+  - 5V: MT3608 Boost Converter
+  - 3.3V: AMS1117-3.3 Linear Regulator
+
+---
+
+## ✅ Final Design Summary
+
+- **Footprint**: 82mm × 60mm, mounted via motherboard drill holes
+- **Connector**: 2×16 2.54mm header, JST-PH battery connector
+- **5V and 3.3V Outputs**:
+  - 5V output: up to 1.5A (±5%)
+  - 3.3V output: up to 300mA (±5%)
+- **Charging Modes**:
+  - Slow: ~200mA (logic low on control pin)
+  - Fast: ~600mA (logic high on control pin)
+- **Sleep Mode**: OFF current draw <30µA, confirmed via test pads
+- **INA219**: Allows shunt-based battery current measurement
+
+---
+
+## 🔧 How to Use
+
+1. Open the KiCad project in `/KiCad_Files`.
+2. Review schematic, footprints, and PCB constraints.
+3. Upload files from `/Gerbers`, `/PnP`, and `/BOM` to JLCPCB.
+4. Use `/Screenshots` for evidence of successful upload and configuration.
+
+---
+
+## 📦 JLCPCB Submission
+
+All files have been validated and successfully uploaded to JLCPCB. Screenshots showing the:
+- Correct **BOM upload**
+- Matching **cart configuration**
+are provided in `/Screenshots`.
+
+---
+
+## 👨‍💻 Authors
+
+- **Alex Hillman** `HLLALE010`
+- GitHub: [EEE3088F_PCP_Power_Project](https://github.com/KLPJOA002/EEE3088F_PCP_Power_Project)
+
+> Contributions are limited to the Power Subsystem. Design files and reports are subject to UCT's academic integrity policies.
+
+---
+
+## 📜 License
+
+This project is licensed for academic purposes only.
